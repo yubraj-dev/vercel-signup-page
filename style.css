@@ -1,14 +1,54 @@
-*{
-    font-family: 'Times New Roman', Times, serif;
+@font-face {
+  font-family: "Raveo";
+  src: url(./Raveo.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raveo", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
 
-}
-h1{
-    text-align: center;
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: #0f1111;
 }
 
-#outer{
-    font-size: 25px;
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  list-style: none;
 }
-#inner{
-    font-size: 10px;
+a {
+  text-decoration: none;
+  color: white;
+}
+button {
+  background-color: #f08804;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+#logo {
+  color: #f08804;
+  font-weight: bold;
+}
+
+#text {
+  padding-left: 10px;
+  align-items: center;
 }
